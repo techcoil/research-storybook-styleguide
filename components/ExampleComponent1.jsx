@@ -45,3 +45,4 @@ export default ExampleComponent1;
 ExampleComponent1.propTypes = {
   themeType: PropTypes.oneOf(["primary","secondary", "accent"]),
 };
+
