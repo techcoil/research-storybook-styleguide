@@ -115,4 +115,3 @@ export const ChangingCards = () => {
     </div>
   );
 };
-
