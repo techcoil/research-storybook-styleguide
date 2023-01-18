@@ -1,7 +1,5 @@
 # Storybook Style Guide Research Results
 
-I have found that I
-
 To incorporate a new toolbar feature within a storybook project, one can utilize the `@storybook/addon-toolbars` library. This library is part of the essential addons that are pre-installed with a standard storybook installation.
 
 We would then need to add it the to addons inside main js.
@@ -164,4 +162,20 @@ Now we need to export the decorator so storybook knows how to use it, we will do
 export const decorators = [withThemes];
 ```
 
+Now we have those css vars loaded inside of our story, and whenever we will switch theme the css vars will change accordingly, if we want to use them concurrently with tailwind we would need to define their usage inside ```tailwind.config.js``` like so.
 
+```javascript
+
+ theme: {
+    extend: {
+      backgroundColor: {
+        primary: "var(--scheme-primary)",
+        secondary: "var(--scheme-secondary)",
+      },
+      colors: {
+        danger: "var(--scheme-danger)",
+      }
+    },
+  },
+
+  ```
