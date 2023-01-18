@@ -2,9 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  :root {
-    --color-primary: red;
-    --text-color-primary:'white'
-  }
-}

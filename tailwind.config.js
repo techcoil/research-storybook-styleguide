@@ -7,10 +7,11 @@ module.exports = {
   ],  theme: {
     extend: {
       backgroundColor: {
-        primary: "var(--color-primary)",
+        primary: "var(--scheme-primary)",
+        secondary: "var(--scheme-secondary)",
       },
       colors: {
-        'tx-primary': "var(--text-color-primary)",
+        danger: "var(--scheme-danger)",
       }
     },
   },

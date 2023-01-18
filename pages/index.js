@@ -1,10 +1,10 @@
 import React from 'react'
-import ExampleComponent1 from '../components/ExampleComponent1'
+import ExampleComponent from '../components/ExampleComponent'
 
 const index = () => {
   return (
-    <div>
-      <ExampleComponent1/>
+    <div className='bg-red-500 h-96 '>
+      <ExampleComponent/>
     </div>
   )
 }
