@@ -10,6 +10,7 @@ enter the project directory
 
 run:
 `yarn`
+
 `yarn storybook`
 
 after that you can open localhost:6006
