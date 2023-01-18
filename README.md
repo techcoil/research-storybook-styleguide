@@ -9,6 +9,7 @@ enter the project directory
 `cd research-storybook-styleguide/`
 
 run:
+
 `yarn`
 
 `yarn storybook`
